@@ -1,0 +1,92 @@
+*{
+    margin:    0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+/* body{
+    padding: 30px;
+} */
+ul{
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    font-size: 12px;
+    
+}
+
+a{
+    text-decoration: none;
+    color: white;
+    
+}
+a:hover {
+
+    text-decoration: underline;
+}
+.texthead{
+    text-align: center;
+}
+.marge{
+    padding-left:10px ;
+    padding-right:10px ;
+}
+header{
+    background: linear-gradient(rgba(120, 120, 120,0.5),rgba(120, 120, 120,0.5)),url("https://galerieberthelet.com/cdn/shop/files/sous-la-neige-isabelle-beaubien-mockup_900x.jpg?v=1675021185");
+    background-size: cover;
+
+    background-repeat: no-repeat;
+    background-position: center;
+    color: white;
+    /* background-color: black; */
+    padding: 50px;
+    color: white;
+    height: 80vh;
+    
+
+
+}
+figure figcaption{
+
+    padding-top: 20px;
+    
+}
+header h1{
+    padding-bottom: 20px    ;
+    font-weight: bold;
+    font-size: 50px;
+}
+.menu{
+    display: flex;
+    align-items: center; 
+    justify-content: center;
+    padding-bottom: 210px;
+}
+ul li{
+
+    padding-left:40px;
+    font-size: larger;
+}
+
+.displayimage{
+    display: flex;
+    justify-content: center;
+    
+    
+}
+
+#meuble img{
+    padding-right:  30px; ;
+
+}
+section{
+    padding-left: 100px;
+    padding-right:100px;
+}
+.containcategorie{
+    padding-top: 60px;
+    padding-bottom: 60px;
+
+   
+}
+.containcategorie h2{
+    padding-bottom: 30px;
+}
